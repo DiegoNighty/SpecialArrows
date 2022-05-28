@@ -1,0 +1,5 @@
+main: com.github.diegonighty.specialarrows.ArrowPlugin
+name: SpecialArrows
+version: 1.0.0
+author: DiegoNighty
+api-version: 1.14

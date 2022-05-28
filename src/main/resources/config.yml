@@ -1,0 +1,70 @@
+bundle-arrow:
+  name: "&eBundle Arrow"
+  lore:
+    - "&dFires multiple arrows"
+  data: 100
+  multiplier: 5
+  recipe:
+    shape: "AAA,AAA,AAA"
+    ingredients:
+      A: ARROW
+
+diamond-arrow:
+  name: "&bDiamond Arrow"
+  lore:
+    - "&dKilled mobs will drop"
+    - "&ddiamonds and gold"
+  data: 200
+  drops:
+    - "DIAMOND"
+    - "DIAMOND"
+    - "DIAMOND"
+    - "DIAMOND"
+    - "DIAMOND"
+    - "GOLD_INGOT"
+  recipe:
+    shape: "AAA,ABA,AAA"
+    ingredients:
+      A: DIAMOND
+      B: 100
+
+crystal-arrow:
+  name: "&5End Crystal Arrow"
+  lore:
+    - "&dFast, Laser like Project"
+    - "&aPierces Mobs"
+  data: 400
+  multiplier-velocity: 5
+  recipe:
+    shape: "AB "
+    ingredients:
+      A: 500
+      B: END_CRYSTAL
+
+fish-arrow:
+  name: "&eFish Arrow"
+  lore:
+    - "&eConvert the hit entity to a fish!"
+  data: 500
+  recipe:
+    shape: "ABA,BCB,ABA"
+    ingredients:
+      A: SALMON
+      B: COD
+      C: ARROW
+
+infinity-arrow:
+  name: "&aInfinity Arrow"
+  lore:
+    - "&eRecover your arrow in 2 secs"
+  data: 600
+  damage: 20
+  delay: 2
+  recipe:
+    shape: "A B, C ,D E"
+    ingredients:
+      A: 100
+      B: 200
+      C: DIAMOND_BLOCK
+      D: 400
+      E: 500
